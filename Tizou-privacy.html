@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>题舟（Tizou）隐私政策</title>
+  <style>
+    body { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; max-width: 760px; margin: 24px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+    h1 { font-size: 22px; border-bottom: 2px solid #4263eb; padding-bottom: 8px; }
+    h2 { font-size: 16px; margin-top: 24px; color: #4263eb; }
+    p, li { font-size: 14px; }
+    .note { color: #888; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>题舟（Tizou）隐私政策</h1>
+  <p>最后更新：2026-09-13</p>
+
+  <h2>1. 概述</h2>
+  <p>「题舟」是一款本地离线运行的刷题工具。我们非常重视你的隐私。本政策说明我们在使用本软件时的数据收集与处理方式。</p>
+
+  <h2>2. 我们收集什么</h2>
+  <ul>
+    <li><strong>设备授权标识</strong>：为保护软件授权，我们会在你的设备本地计算一个不可逆的设备指纹（对设备唯一标识做哈希处理）。该指纹仅用于与本软件内置的授权密文进行比对，<strong>不会上传、不会收集到我们服务器</strong>。</li>
+    <li><strong>本地学习数据</strong>：题目、标签、试卷、笔记、答题记录、学习统计等全部由你创建的数据，均仅存储在你的设备本地 SQLite 数据库中。</li>
+  </ul>
+
+  <h2>3. 我们不做什么</h2>
+  <ul>
+    <li>不收集、不传输任何个人信息（姓名、账号、联系方式、位置等）。</li>
+    <li>无广告 SDK、无统计埋点、无遥测、无崩溃上报。</li>
+    <li>核心功能完全离线，无需联网即可使用。</li>
+  </ul>
+
+  <h2>4. 数据存储与备份</h2>
+  <p>所有数据存储在本地数据库文件 <code>tizou.db</code> 中（桌面端可自选存放目录）。你可以随时在「设置 → 数据管理」中导出整份数据（JSON/CSV），或清空全部数据。建议定期导出备份。</p>
+
+  <h2>5. 数据删除</h2>
+  <p>你可以在「设置 → 数据管理 → 清除所有数据」删除全部本地数据；卸载软件也会删除其本地数据（桌面端自选目录中的库文件除外）。</p>
+
+  <h2>6. 第三方服务</h2>
+  <p>本软件不集成任何第三方广告、统计或云同步服务。运行所需的开源组件（SQLite、Flutter 生态等）仅在本机运行。</p>
+
+  <h2>7. 未成年人</h2>
+  <p>本软件不受年龄限制，且因不收集个人信息，无需额外法定监护人同意机制。</p>
+
+  <h2>8. 变更与联系我们</h2>
+  <p>本政策更新时会在软件版本中同步发布。如有隐私相关问题，请联系：<a href="mailto:1299278392@qq.com">1299278392@qq.com</a>。</p>
+
+  <p class="note">© 2026 题舟（Tizou）</p>
+</body>
+</html>
